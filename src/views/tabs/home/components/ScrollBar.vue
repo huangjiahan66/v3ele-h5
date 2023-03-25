@@ -37,7 +37,7 @@ onMounted(() => {
   const count = container.children.length // dom的子元素个数
   const firstSwipeItem = container.children[0] //第一个子元素
   container.style.height = `${count * props.height}`
-  let index = 0 //滚动到第几个元素
+  let index = 0 //滚动到第几个元素11
   setInterval(() => {
     index++
     // 如果超过item个数就需要将第一个元素接到后面
